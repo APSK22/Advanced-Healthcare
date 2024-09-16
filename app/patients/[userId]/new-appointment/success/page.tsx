@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import * as Sentry from '@sentry/nextjs';
+// import * as Sentry from '@sentry/nextjs';
 
 import { Doctors } from '@/constants';
 import { formatDateTime } from '@/lib/utils';
@@ -19,7 +19,7 @@ const RequestSuccess = async ({
     (doctor) => doctor.name === appointment.primaryPhysician
   );
 
-  Sentry.metrics.set('user_view_appointment-success', user.name);
+  // Sentry.metrics.set('user_view_appointment-success', user.name);
 
   return (
     <div className=" flex h-screen max-h-screen px-[5%]">
