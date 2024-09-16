@@ -24,7 +24,7 @@ export default async function NewAppointment({
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[860px] flex-1 justify-between">
           <Image
-            src="/assets/icons/logo-full.svg"
+            src="/assets/icons/ARMS.png"
             width={1000}
             height={1000}
             alt="logo"
@@ -37,7 +37,7 @@ export default async function NewAppointment({
             patientId={patient.$id}
           />
 
-          <p className="copyright mt-10 py-12">© 2024 CarePulse</p>
+          <p className="copyright mt-10 py-12">© 2024 ARMS</p>
         </div>
       </section>
 

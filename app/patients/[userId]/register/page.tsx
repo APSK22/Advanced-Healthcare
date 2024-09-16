@@ -15,7 +15,7 @@ const Register = async ({ params: { userId } }: SearchParamProps) => {
       <section className="remove-scrollbar container">
         <div className="sub-container max-w-[860px] flex-a flex-col py-10">
           <Image
-            src="/assets/icons/logo-full.svg"
+            src="/assets/icons/ARMS.png"
             width={1000}
             height={1000}
             alt="logo"
@@ -24,7 +24,7 @@ const Register = async ({ params: { userId } }: SearchParamProps) => {
 
           <RegisterForm user={user} />
 
-          <p className="copyright py-12">© 2024 CarePulse</p>
+          <p className="copyright py-12">© 2024 ARMS</p>
         </div>
       </section>
 

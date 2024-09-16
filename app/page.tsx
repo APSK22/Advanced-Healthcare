@@ -14,7 +14,7 @@ export default function Home({ searchParams }: SearchParamProps) {
         <div className="sub-container max-w-[496px]">
           <div className="flex items-center justify-between mb-12">
             <Image
-              src="/assets/icons/logo-full.svg"
+              src="/assets/icons/ARMS.png"
               width={200}  // Adjusted width for better placement
               height={100}
               alt="logo"
@@ -35,7 +35,7 @@ export default function Home({ searchParams }: SearchParamProps) {
 
           <div className="text-14-regular mt-20 flex justify-between">
             <p className="justify-items-end text-dark-600 xl:text-left">
-              © 2024 CarePulse
+              © 2024 ARMS
             </p>
             <Link href="/?admin=true" className="text-green-500">
               Admin
