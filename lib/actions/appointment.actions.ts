@@ -102,7 +102,7 @@ export const updateAppointment = async ({
     }
 
     const smsMessage = `
-      Hi, it's CarePulse.
+      Hi, it's ARMS.
       ${
         type === 'schedule'
           ? `Your appointment has been scheduled for ${
