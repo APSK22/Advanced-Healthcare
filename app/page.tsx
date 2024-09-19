@@ -23,7 +23,7 @@ export default function Home({ searchParams }: SearchParamProps) {
 
             {/* Disease Prediction Button */}
             <a
-              href="https://multiple-disease-prediction-webapp1.streamlit.app/"
+              href="https://Machinelearningapp/"
               className="px-4 py-2 bg-red-700 text-white rounded-xl shadow-md  transition-all duration-1000 ease-in-out hover:shadow-white "
               target="_blank"
             >

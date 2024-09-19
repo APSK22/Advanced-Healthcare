@@ -97,7 +97,7 @@ const RegisterForm = ({ user }: { user: User }) => {
             control={form.control}
             name="name"
             label="Full name"
-            placeholder="John Doe"
+            placeholder="JIIT 128"
             iconSrc="/assets/icons/user.svg"
             iconAlt="user"
           />
@@ -108,7 +108,7 @@ const RegisterForm = ({ user }: { user: User }) => {
               control={form.control}
               name="email"
               label="Email"
-              placeholder="johndoe@gmail.com"
+              placeholder="jiit128@gmail.com"
               iconSrc="/assets/icons/email.svg"
               iconAlt="email"
             />
