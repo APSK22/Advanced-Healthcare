@@ -15,7 +15,7 @@ export default async function NewAppointment({
     <div className="flex h-screen max-h-screen">
       {/* Disease Prediction button */}
       <a
-      href="https://minorwebappproject-6q4phkbmww8tbsvxcavbmr.streamlit.app/" // Replace with your actual link
+      href="https://minorwebappproject-klnen7bcur6jknr4spwfal.streamlit.app/" // Replace with your actual link
       className="absolute top-4 right-4 px-4 py-2 bg-red-700 text-white rounded-lg shadow-md transition-all duration-1000 ease-in-out  hover:shadow-white animate"
       target="_blank"
     >

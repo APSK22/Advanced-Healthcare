@@ -23,7 +23,7 @@ export default function Home({ searchParams }: SearchParamProps) {
 
             {/* Disease Prediction Button */}
             <a
-              href="https://minorwebappproject-6q4phkbmww8tbsvxcavbmr.streamlit.app/"
+              href="https://minorwebappproject-klnen7bcur6jknr4spwfal.streamlit.app/"
               className="px-4 py-2 bg-red-700 text-white rounded-xl shadow-md  transition-all duration-1000 ease-in-out hover:shadow-white "
               target="_blank"
             >
