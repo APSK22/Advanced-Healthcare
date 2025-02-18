@@ -1,69 +1,74 @@
-# CarePulse
+# Arms Healthcare
 
-> A healthcare app for managing patients' appointments with SMS notification.
+**Arms Healthcare** is a healthcare platform built using **Next.js**, **Machine Learning**, and **Sentry** for error tracking. The platform includes a **Patient Management System** and integrates **Machine Learning** models to assist healthcare providers in making informed decisions.
 
-## Built With
+## Table of Contents
 
-- Major languages: TypeScript
-- Backend: Appwrite.io
-- Framework: Next.js
-- Tools used: Twilio, Sentry
-- Styling: TailwindCSS, shadcn/ui
+- [Overview](#overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Patient Management](#patient-management)
+  - [Machine Learning Integration](#machine-learning-integration)
+  - [Error Monitoring with Sentry](#error-monitoring-with-sentry)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
 
-## Screenshots
+## Overview
 
-### Sign up page
+Arms Healthcare is a platform designed to enhance healthcare management through modern web technologies. The platform focuses on:
+1. **Patient Management System**: A tool to manage patient records, track appointments, and monitor medical histories.
+2. **Machine Learning Integration**: Leverages machine learning models for disease prediction and other healthcare-related tasks.
 
-![Home](/public/assets/images/Carepulse_home.png)
+Additionally, the platform integrates **Sentry** for real-time error tracking and performance monitoring.
 
-### Admin Dashboard
+## Features
 
-![Admin Dashboard](/public/assets/images/Carepulse_admin.png)
+- **Patient Management System**: 
+  - Allows healthcare professionals to create and manage patient profiles.
+  - Schedule and track appointments and maintain a detailed history of patients.
 
-## Live Link
+- **Machine Learning Integration**: 
+  - Disease prediction models to assist healthcare professionals in diagnosing conditions early.
+  - Provides predictive insights based on patient data.
 
-You can view the current deployment by clicking the link bellow:
+- **Real-Time Error Monitoring with Sentry**:
+  - **Sentry** is integrated into the platform to catch runtime errors and monitor app health in real time.
+  - Allows developers to swiftly resolve issues, ensuring a smooth user experience.
 
-[Live Demo site](https://carepulse-lovat.vercel.app/)
+## Tech Stack
 
-## Deployment
+- **Frontend**:
+  - **Next.js**: A React framework for server-rendered applications.
+  - **React.js**: JavaScript library for building user interfaces.
+  - **Tailwind CSS**: A utility-first CSS framework for designing responsive layouts.
 
-Deploy your project with [Vercel](https://vercel.com/)
+- **Backend**:
+  - **Next.js API Routes**: Provides serverless functions for handling backend logic.
+  - **Appwrite**: Backend-as-a-Service (BaaS) for user authentication and data management.
 
-## Getting Started
+- **Machine Learning**:
+  - Custom machine learning models integrated for **disease prediction**.
 
-To get a local copy up and running follow these simple example steps.
+- **Error Monitoring**:
+  - **Sentry**: Real-time error tracking platform to identify and fix bugs and performance issues.
 
-- Clone the project to your local machine using `git clone https://github.com/Hombre2014/carepulse.git`
-- `cd carepulse` into the project directory
-- Run `npm install` to install the necessary packages
-- have a look at the `.env.example` file and create a `.env.local` file with the necessary environment variables
-- For the demo site the `NEXT_PUBLIC_ADMIN_PASSKEY=123456`
-- Run `npm run dev` to start the development server
-- Open your browser and go to `http://localhost:3000/`
+## Installation
 
-## Author
+Follow these steps to set up the project locally.
 
-👤 **Yuriy Chamkoriyski**
+### Prerequisites
 
-- GitHub: [@Hombre2014](https://github.com/Hombre2014)
-- Twitter: [@Chamkoriyski](https://twitter.com/Chamkoriyski)
-- LinkedIn: [axebit](https://linkedin.com/in/axebit)
+- Node.js (v14.x or higher)
+- npm (v6.x or higher)
+- Sentry DSN for error monitoring
+- Appwrite project credentials
 
-## 🤝 Contributing
+### Steps
 
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/Hombre2014/carepulse/issues).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-Thanks to JavaScript Mastery for inspirational [video](https://www.youtube.com/watch?v=lEflo_sc82g).
-
-## 📝 License
-
-This project is [MIT](./license.md) licensed.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/arms-healthcare.git
+   cd arms-healthcare
