@@ -20,15 +20,15 @@ export default function Home({ searchParams }: SearchParamProps) {
               alt="logo"
               className="h-10 w-fit"
             />
-
+            
             {/* Disease Prediction Button */}
-            <a
+            {/* <a
               href="https://minorwebappproject-klnen7bcur6jknr4spwfal.streamlit.app/"
               className="px-4 py-2 bg-red-700 text-white rounded-xl shadow-md  transition-all duration-1000 ease-in-out hover:shadow-white "
               target="_blank"
             >
               Disease Prediction using ML
-            </a>
+            </a> */}
           </div>
 
           <PatientForm />
