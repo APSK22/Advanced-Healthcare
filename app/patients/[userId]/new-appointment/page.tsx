@@ -14,13 +14,13 @@ export default async function NewAppointment({
   return (
     <div className="flex h-screen max-h-screen">
       {/* Disease Prediction button */}
-      {/* <a
+       <a
       href="https://minorwebappproject-klnen7bcur6jknr4spwfal.streamlit.app/" // Replace with your actual link
       className="absolute top-4 right-4 px-4 py-2 bg-red-700 text-white rounded-lg shadow-md transition-all duration-1000 ease-in-out  hover:shadow-white animate"
       target="_blank"
     >
       Disease Prediction using ML
-    </a> */}
+    </a> 
     
       <section className="remove-scrollbar container my-auto">
         <div className="sub-container max-w-[860px] flex-1 justify-between">
