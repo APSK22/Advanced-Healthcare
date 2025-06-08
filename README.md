@@ -1,6 +1,6 @@
 # Arms Healthcare
 
-**Arms Healthcare** is a healthcare platform built using **Next.js**, **Machine Learning**, and **Sentry** for error tracking. The platform includes a **Patient Management System** and integrates **Machine Learning** models to assist healthcare providers in making informed decisions.
+**Arms Healthcare** is a healthcare platform that is built using **Next.js**, **Machine Learning**, and **Sentry** for error tracking. The platform includes a **Patient Management System** and integrates **Machine Learning** models to assist healthcare providers in making informed decisions.
 
 ## Table of Contents
 
